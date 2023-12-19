@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bitter&family=Open+Sans:ital@0;1&family=Poppins:wght@300&family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Contact Us</title>
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg navbar-light custom-navbar"
+      style="background-color: rgb(171, 20, 20)"
+    >
+      <a class="navbar-brand" href="#"></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html"
+              >Home <span class="sr-only"></span
+            ></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Game.html">Game</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="About.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contactUs.html">Contact us</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="padding"></div>
+
+    <h1>Contact Us</h1>
+    <div class="padding"></div>
+    <div class="container">
+      <form id="contactForm" action="action-page.php">
+        <label for="fname">Full Name</label>
+        <input
+          type="text"
+          id="fname"
+          name="fullname"
+          placeholder="Your name..."
+          required
+        />
+        <label for="email">Email Address</label>
+        <input
+          type="text"
+          id="email"
+          name="email"
+          placeholder="example@hotmail.com"
+          required
+        />
+
+        <label for="moreInformation">More Information</label>
+        <textarea
+          name="moreInformation"
+          id="moreInformation"
+          placeholder="Hello, I've got a project that I'd like to discuss further..."
+          style="height: 200px"
+          required
+        ></textarea>
+
+        <input type="submit" value="Submit" id="submitButton" disabled />
+      </form>
+      <div id="thankYouMessage" style="display: none" class="thank-you-message">
+        Thank you for your details, we will be in touch within 3 business days.
+        You will now be redirected back to the homepage.
+      </div>
+    </div>
+    <div class="padding"></div>
+
+    <footer>
+      <div class="footer">
+        <div class="footer-container">
+          <div class="footer-col">
+            <h1 class="h1-social-media">Social Media</h1>
+            <p class="p-social-media">© Thomas Leavy 2023</p>
+            <ul>
+              <a href="//www.facebook.com" target="_blank"
+                ><img src="images/facebookicon.png" alt="facebook-logo"
+              /></a>
+              <a href="http://instagram.com/" target="_blank"
+                ><img src="images/Instagramicon.png" alt="instagram-logo"
+              /></a>
+              <a href="http://twitter.com" target="_blank"
+                ><img src="images/twittericon.png" alt="twitter-logo"
+              /></a>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
