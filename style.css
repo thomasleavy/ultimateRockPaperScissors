@@ -1,16 +1,10 @@
 body {
   background: linear-gradient(90deg, rgb(171, 20, 20) 10px, black 10px, transparent calc(20px + 1px)),
-            linear-gradient(90deg, rgb(171, 20, 20) 10px, black 10px, transparent calc(20px + 1px));
+              linear-gradient(90deg, rgb(171, 20, 20) 10px, black 10px, transparent calc(20px + 1px));
   background-size: 20px 100%;
   background-position: 0 0, 100.8% 0;
   background-repeat: no-repeat;
   background-color: rgb(33, 33, 33);
-  margin: 0; /* Remove default body margin */
-}
-
-.custom-navbar {
-  width: 100%; /* Full width */
-  z-index: 1000; /* Ensure it's above other elements */
 }
 
 .padding {
@@ -231,9 +225,15 @@ text-align: center;
   border: 1px solid black;
   padding: 10px;
   width: 80%;
-  margin-left: 130px;
+  margin-left: 10%;
   position: relative;
  }
+
+ /*to ensure it fits on mobile screens*/
+ @media only screen and (min-width: 768px)  {.rules-container {
+  width: 60%;
+  margin-left: 20%;
+ } }
 
  .rules-container:hover .p-rules {
   opacity: 0.8;
