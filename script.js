@@ -57,12 +57,6 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
-
-// Game page - Rock, Paper, Scissors
-
-// The below line of code sets up logic that prevents the user from clicking an image when the message appears
-
-//I had a problem here for ages, more than 1 message was appearing, the logic was messy so I had to remove the final message, you can't see it anymore in this code.
 // Game page - Rock, Paper, Scissors
 
 // The below line of code sets up logic that prevents the user from clicking an image when the message appears
